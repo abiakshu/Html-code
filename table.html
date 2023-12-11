@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Table</title>
+    <style>
+       table, th, td{
+        border: 1px  solid black;
+        border-collapse: collapse;
+       }
+       th{
+        text-align: center;
+       }
+    </style>
+</head>
+<body>
+    <!--
+    1. <table></table>
+    2. <tr></tr> - Table Row
+    3. <th></th> - Table Heading 
+    4. <td></td> - Table Data
+    5. <col>
+    6. <colspan></colspan>
+    7. <caption></caption>
+    8. <thead></thead>
+    9. <tbody>
+    10. <tfoot></tfoot> - Table Footer 
+    -->
+
+    <table style="width: 30%;"> 
+        <colspan>
+        <col span="1" style="background-color: white;">
+        <col span="1" style="background-color: deeppink;">
+        <col span="1" style="background-color: aqua;">
+        </colspan>
+        <tr>
+            <th>S no.</th>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td style="text-align: center;">1.</td>
+            <td>AKSHATHA B</td>
+            <td>19</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>PRIYA V</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>AVITHA A</td>
+            <td>18</td>
+        </tr>
+    </table>
+</body>
+</html>

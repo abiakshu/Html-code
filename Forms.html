@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<style>
+    table, th, td {
+      border:1px solid black;
+    }
+    </style>
+
+<body>
+    <h1>Student Registration</h1>
+
+    <form action ="" method="post">
+       <!-- Attribute of form
+       1. action
+       2. target
+       3. method
+        -->
+    <table>
+        <tr>
+            <th><label>Enter your First name:</label></th>
+            <td><input type="text"  placeholder="Type your Firstname" name="fname"></td>
+        </tr>
+        <tr>
+            <th><label>Enter your Lastname:</label></th>
+            <td><input type="text" placeholder="Type your Lastname" name="lname"></td>
+        </tr>
+        <tr>
+            <th><label>Enter your password:</label></th>
+            <td><input type="password" placeholder="Type your password" name="pwd"></td>
+        </tr>
+        <tr>
+            <th><label>Choose your Gender:</label></th>
+            <td><input type="radio" name="gender" value="male"> male
+                <input type="radio" name="gender" value="female"> Female </td>
+        </tr>
+        <tr>
+            <th><label>Type your Address:</label></th>
+            <td><textarea rows="10" cols="20" placeholder="Type your address"></textarea></td>
+        </tr>
+        <tr>
+            <th><label>Select your Courses:</label></th>
+            <td><select name="ugcourses" size="5" multiple>
+                <optgroup label="Science Courses">
+                <option value="bca">BCA</option>
+                <option value="bsc_cs"></option>
+                </optgroup>
+                <optgroup label="Com,erce Courses">
+                    <option value="bcom">B.com</option>
+                    <option value="bcom_ca" selected>B.com CA</option>
+                </optgroup>
+                <optgroup label="Arts Courses">
+                     <option value="ba_eng">BA English</option>
+                </optgroup>
+
+            </select>
+          </td>
+        </tr>
+        <tr>
+            <th><label>Attach yuor file:</label></th>
+            <td><input type="file"></td>
+        </tr>
+        <tr>
+            <th><input type="submit" value="Click to submit"></th>
+            <th><input type="reset" value="reset"> </th>
+        </tr>
+    </table>
+        
+    </form>
+</body>
+</html>

@@ -1,0 +1,18 @@
+h1,p
+{
+    color:pink;
+
+}
+h1#a1
+{
+    color:antiquewhite;
+    text-decoration: none;
+}
+.first
+{
+    background-color:yellowgreen;
+}
+div.first,  h1#ak
+{
+    color:white;
+}
